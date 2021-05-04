@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Form</title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="form-wrapper">
+            <h2>Payment Form</h2>
+            <form>
+                <h4>Account</h4>
+                <div class="profile input-group">
+            <div class="input-box">
+                <input type="text" class="profile-name" placeholder="Full Name" required>
+                <i class="fa fa-user icon"></i>
+            </div>
+            <div class="input-box">
+                <input type="text" class="profile-name" placeholder="User Name" required>
+                <i class="fa fa-user icon"></i>
+            </div>
+            <div class="input-box">
+                <input type="email" class="profile-name" placeholder="email" required>
+                <i class="fa fa-envelope"></i>
+            </div>
+
+        </div><!-- profile -->
+
+
+        <div class="birthdate input-group">
+            <h4>Date of Birth</h4>
+            <div class="input-box">
+                <input type="text" class="birthday" placeholder="DD" required>
+                <input type="text" class="birthday" placeholder="MM" required>
+                <input type="text" class="birthday" placeholder="YY" required>
+            </div>
+        </div>
+
+        <div class="gender input-group">
+            <h4>Gender</h4>
+            <div class="input-box">
+                <label><input type="radio" class="gender-sex" id="b1" checked >Female</label>
+                <label><input type="radio" class="gender-sex" id="b2">Male</label>
+            </div>
+        </div>
+
+        <div class="payment input-group">
+            <h4>Payment Details</h4>
+            <div class="input-box">
+                <input type="radio"class="pay" id="pay1" checked >
+                <label><i class="fa fa-cc-visa"></i>Credit Card</label>
+                <input type="radio" class="pay" id="pay2" >
+                <label><i class="fa fa-cc-paypal"></i>Paypal</label>
+
+            </div>
+        </div>
+
+        <div class="card-details input-group">
+            <div class="input-box">
+                <input type="tel" class="card" placeholder="Card Number" required>
+                <i class="fa fa-user icon"></i>
+            </div>
+            <div class="input-box">
+                <input type="tel" class="card" placeholder="Card CVC" required>
+                <i class="fa fa-user icon"></i>
+            </div>
+            </div>
+
+            <div class="date-select input-group">
+                <div class="input-box">
+                    <select class="date">
+                        <option>01 Dec</option>
+                        <option>02 Dec</option>
+                        <option>03 Dec</option>
+                    </select>
+                <div class="input-box">
+                    <select class="date">
+                        <option>2020</option>
+                        <option>2021</option>
+                        <option>2022</option>
+                    </select>
+                </div>
+
+
+                <div class="button input-group">
+                <div class="input-box">
+                    <button type="submit">Pay Now</button>
+                </div>
+                </div>
+
+
+
+            </form>
+        </div>
+    </div>
+    
+</body>
+</html>
