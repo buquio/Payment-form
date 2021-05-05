@@ -14,7 +14,7 @@ body{
     font-family:Raleway, sans-serif;
     font-size: 20px;
     font-weight: 300;
-    color:#ffefcf ;
+    color:#ff7a00;
     background:#d44000 ; 
     background-image: linear-gradient(rgba(134, 64, 0, 0.7),rgba(154, 64, 20, 0.7)),
       url(https://thumbs.dreamstime.com/b/african-university-students-group-happy-looking-camera-52803479.jpg);
@@ -59,10 +59,19 @@ form{
 }
 .input-box{
     width: 100%;
-    
+}
+
+.input-profile{
+  color: #ff7a00;
+}
+
+.fa {
+  color: #ff7a00;
+
 }
 input{
     margin: 20px;
+
 }
 
 input[type="text"] ,
@@ -71,18 +80,21 @@ input[type="tel"],
 select,button  {
   font-family: inherit;
   font-size: 15px;
+  color: inherit;
   width: 90%;
   padding: 10px;
   border: 1px solid #ff7a00;
   border-radius: 5px;
   }
 
-  input[type="radio"] {
-  /* .gender-sex, .pay{ */
-font-size: 30px;
+input[type="radio"] {
+   min-height: 20px;
+   min-width: 20px;
+  color: #ff7a00;
+
   }
   
-    .date-select{
+  .date-select{
       display: flex;
       margin-left: 20px;
   }
@@ -93,7 +105,7 @@ font-size: 30px;
   }
   button{
     background-color: #d44000;
-    /* color: #fff; */
+    color: #fff;
     border: 1px solid #fff;
     width: 50%;
     padding: 10px 15px;
@@ -101,6 +113,6 @@ font-size: 30px;
   }
   button:hover{
     background-color:#Fff ;
-    color: #FC85AE;
+    color: #d44000;
   }
   
